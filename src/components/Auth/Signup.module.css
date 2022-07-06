@@ -1,0 +1,150 @@
+.container {
+
+}
+
+.form {
+    /* background-color: blue; */
+    max-width: 40%;
+    margin: 10% auto;
+    text-align: center;
+
+    box-shadow: 0px 0px 2px 2px rgb(217, 233, 248);
+
+    border: 1px solid rgb(211, 230, 249);
+    border-radius: 5px;
+}
+
+.formHead {
+    padding: 10px;
+    margin: 0px 30px;
+    font-family: sans-serif;
+
+    font-size: 25px;
+    font-weight: 500;
+
+    letter-spacing: 0.6px;
+
+    color: rgb(62, 158, 131);
+    
+    border-bottom: 2px solid rgb(163, 216, 207); 
+}
+
+.formbody {
+    padding: 2px;
+    margin-top: 20px;
+
+}
+
+.email {
+   font-size: 18px;
+
+   font-family: sans-serif;
+   font-weight: 400;
+
+   color: rgb(57, 87, 138);
+
+}
+
+.email input {
+    outline: none;
+
+    
+    padding: 4px;
+    border: 2px solid rgb(199, 199, 199);
+    font-size: 16px;
+    font-family: sans-serif;
+
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    margin-bottom: 20px;
+
+    color: rgb(0, 124, 103);
+    letter-spacing: 0.6px;
+}
+
+.email input:focus {
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px rgb(106, 197, 173);
+}
+
+.password {
+    font-size: 18px;
+
+    font-family: sans-serif;
+    font-weight: 400;
+ 
+    color: rgb(57, 87, 138);
+}
+
+.password input {
+    outline: none;
+
+    padding: 4px;
+    border: 2px solid rgb(199, 199, 199);
+    font-size:16px;
+    font-family: sans-serif;
+    
+
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    color: rgb(0, 145, 121);
+
+    margin-bottom: 20px;
+}
+
+.password input:focus {
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px rgb(106, 197, 173);
+}
+
+.submit {
+    margin-bottom: 30px;
+}
+
+.submit  button {
+    padding: 4px 20px;
+    width: 40%;
+    color: white;
+
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    border: 2px solid rgb(0, 163, 127);
+    border-radius: 6px;
+    background-color: rgb(0, 163, 127);
+}
+
+.submit button:hover {
+    cursor: pointer;
+    border: 2px solid rgb(1, 178, 140);
+    background-color: rgb(1, 178, 140);
+}
+
+.gosignup {
+    margin-bottom: 5%;
+
+    font-size: 16px;
+    color: rgb(84, 74, 74);
+}
+
+.gosignup a{
+    padding: 5px;
+    margin-left: 10px;
+
+    letter-spacing: 0.6px;
+
+}
+.gosignup a:hover {
+    color: rgb(0, 145, 255);
+}
+
+
+
+

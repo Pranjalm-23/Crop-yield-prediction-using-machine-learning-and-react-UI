@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left {
+    max-width: 60%;
+
+    margin-top: 7%;
+
+    text-align: center;
+}
+
+.right {
+    width: 45%;
+}
+
+.right img {
+    float: right;
+    width: 100%;
+    height: auto;
+    margin-top: 25%;
+
+    margin-right: 12%;
+
+    box-shadow: 0px 0px 5px 5px rgb(242, 242, 242);
+
+    border-radius: 40px;
+}
+
+.first {
+    margin-left: 5%;
+    width: 80%;
+    text-align: center;
+
+    margin-bottom: 20%;
+}
+
+.second {
+margin-left: 5%;
+    width: 80%;
+    text-align: center;
+}
+
+.serviceTitle_1 h2{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(29, 72, 118);
+}
+
+.serviceTitle_1 p {
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(75, 119, 165);
+}
+.serviceTitle_2 h2{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(104, 71, 144);
+}
+
+.serviceTitle_2 p {
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(144, 120, 174);
+}
+
+.first button {
+    width: 65%;
+    padding: 10px 16px;
+    background-color: rgb(0, 152, 119);
+    color: white;
+
+    /* font */
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+
+    border: 2px solid rgb(0, 152, 119);
+    border-radius: 30px;
+}
+
+.first button:hover {
+    cursor: pointer;
+    border: 2px solid rgb(1, 193, 158);
+    border-radius: 30px;
+    background-color: rgb(1, 193, 158);
+}
+
+.second button {
+    width: 72%;
+    padding: 10px 16px;
+    background-color: rgb(117, 54, 219);
+    color: white;
+
+    /* font */
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+
+    border: 2px solid rgb(117, 54, 219);
+    border-radius: 30px;
+}
+
+.second button:hover {
+    cursor: pointer;
+    border: 2px solid rgb(153, 90, 255);
+    border-radius: 30px;
+    background-color: rgb(153, 90, 255);
+}
