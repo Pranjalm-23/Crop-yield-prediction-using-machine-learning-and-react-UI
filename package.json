@@ -1,0 +1,17 @@
+{
+  "name": "crop-yield-predictor-api",
+  "version": "1.0.0",
+  "description": "This is crop yield predictor that predicts crop yield by taking area and crop as input. and parallaly this app also suggests the best crops that can be produced in entered area. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kshitij khot",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.0",
+    "python-shell": "^3.0.1",
+    "pythonia": "^0.2.16"
+  }
+}
